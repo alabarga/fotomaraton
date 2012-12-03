@@ -1,0 +1,7 @@
+.DS_Store
+*.sublime-*
+dist/
+public/saved/*.png
+.key
+/.config
+node_modules

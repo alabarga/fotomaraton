@@ -1,0 +1,40 @@
+#header
+  h1 Fotoma(ra)toia
+  h2 Atzealdea aukeratu, argazkia atera eta nahi duzun e-postara bidali
+  #colorSelector
+    input(type="text", maxlength="6", size="6", id="colorpickerField2", value="ff0000")
+    p.texto Akeratu chroma key colorea
+#wrapper
+    #left
+        img(src="/images/fondo1.jpg", id="ub", height='220', width='330')
+        img(src="/images/fondo2.jpg", id="peces", height='220', width='330')
+        img(src="/images/fondo3.jpg", id="tr", height='220', width='330')
+      #content
+        .video-wrapper
+          #concavas.video
+            canvas#canvas(width='960', height='540')
+          #bontoncamara.boton-w  
+            a.btn.boton.btn-large.btn-danger(href="#")
+            p.texto Argazkia gordetzen dira serbidorean
+
+
+#footer
+ .footer-content
+   img(src="/images/logos.png")
+#windowTitleDialog(class="modal hide fade", style='display: none;')
+    .modal-header
+        a.close(href='#') ×
+        h3 Bidali argazkia nahi duzun e-postara
+        #error.alert.alert-error(class='hide fade', style='display: none;')
+          button.close(type='button', data-dismiss='alert') ×
+          Tienes que añadir el correo electronico
+      .modal-body
+        .divDialogElements
+          label
+           | E-posta
+          input#xlInput.xlarge(name='correo', type='text')
+      .modal-body
+        #imgpeke
+      .modal-footer
+        a.btn.secondary(href='#') Utzi
+        a.btn.primary(href='#') Bidali

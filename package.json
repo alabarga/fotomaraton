@@ -1,0 +1,37 @@
+{
+  "name": "fotomaratoia",
+  "description": "Versión adapatada del proyecto https://github.com/rwldrn/dmv para crear un fotomaton, con chroma key y envio por correo",
+  "version": "0.3.1",
+  "homepage": "http://fotomaratoia.interzonas.info/",
+  "author": {
+    "name": "karlos g liberal",
+    "email": "karlosgliberal@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karlosgliberal/fotomaton"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rwldrn/dmv/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "express": "2.5.6",
+    "jade": ">= 0.0.1",
+    "nodemailer": "*"
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "express": "2.5.6",
+    "socket.io": "0.8.7",
+    "nodemailer": "*".
+    "jade": ">= 0.0.1"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">= 0.8.2"
+  },
+  "subdomain": "fotomaton"
+}
